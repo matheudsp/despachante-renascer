@@ -1,7 +1,7 @@
 export type SiteConfig = typeof siteConfig;
-import { FaBusinessTime } from "react-icons/fa";
+import { MdOutlineWorkspacePremium } from "react-icons/md"
 import { FaRegCreditCard } from "react-icons/fa6";
-import { GiSpeedometer } from "react-icons/gi";
+import {GiSpeedometer } from "react-icons/gi";
 export const siteConfig = {
   name: "Next.js + HeroUI",
   description: "Make beautiful websites regardless of your design experience.",
@@ -81,16 +81,19 @@ export const siteConfig = {
   ],
   featureItems: [
     {
-      icon: FaBusinessTime,
+      iconSize:72,
+      icon: MdOutlineWorkspacePremium ,
       title: 'Serviço especializado',
       desc: 'Há anos no mercado, pronto para resolver seus problemas.'
     },
     {
+      iconSize:44,
       icon: FaRegCreditCard,
       title: 'Parcelamento',
       desc: 'Parcele em 12x em seu cartão de crédito.'
     },
     {
+      iconSize:44,
       icon: GiSpeedometer,
       title: 'Rapidez',
       desc: 'O melhor tempo de entrega da região.'
@@ -136,4 +139,7 @@ export const siteConfig = {
     whatsapp: "https://github.com/heroui-inc/heroui",
     instagram: "https://www.instagram.com/"
   },
+  contacts: {
+    tel: '(91) 99994-5585'
+  }
 };

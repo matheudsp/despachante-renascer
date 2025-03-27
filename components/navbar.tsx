@@ -26,16 +26,17 @@ import {
   Logo,
 
 } from "@/components/icons";
+import WhatsappButton from "./whatsappButton";
 
 export const Navbar = () => {
-  
+
 
   return (
     <HeroUINavbar maxWidth="xl" className="bg-[#171717] py-2" position="sticky">
       <NavbarContent className="basis-1/5 sm:basis-full " justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
-            <Logo color="background"/>
+            <Logo color="background" />
             <p className="font-bold text-inherit text-white">LOGO</p>
           </NextLink>
         </NavbarBrand>
@@ -44,7 +45,7 @@ export const Navbar = () => {
             <NavbarItem key={item.href}>
               <NextLink
                 className={clsx(
-                 
+
                   "text-background hover:text-primary/75 data-[active=true]:text-primary data-[active=true]:font-medium",
                 )}
                 color="primary"
@@ -62,26 +63,24 @@ export const Navbar = () => {
         justify="end"
       >
         <NavbarItem className="hidden sm:flex gap-2">
-         
-          <Link isExternal aria-label="Github" href={siteConfig.links.whatsapp}>
-            <WhatsappIcon className="text-background" />
-          </Link>
-         
+
+        <WhatsappButton classText="text-base font-bold underline" buttonText={siteConfig.contacts.tel} />
+
         </NavbarItem>
-      
-        
+
+
       </NavbarContent>
 
       <NavbarContent className="md:hidden basis-1 pl-4" justify="end">
-        <Link isExternal aria-label="Github" href={siteConfig.links.whatsapp}>
-          <WhatsappIcon className="text-default-500" />
-        </Link>
         
-        <NavbarMenuToggle className="text-white"/>
+          <WhatsappButton classText="text-sm font-bold underline" buttonText={siteConfig.contacts.tel} />
+        
+
+        <NavbarMenuToggle className="text-white" />
       </NavbarContent>
 
       <NavbarMenu>
-       
+
         <div className="flex flex-col w-full mt-1">
           {siteConfig.navMenuItems.map((item, index) => (
             <NavbarMenuItem key={`${item}-${index}`} className="p-4 text-end border-neutral-500/70 border-b w-full">
