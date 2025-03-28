@@ -16,7 +16,7 @@ import Hero from "@/components/sections/Hero";
 import BudgetModal from "@/components/budgetModal";
 import { subtitle, title } from "@/components/primitives";
 import WhatsappButton from "@/components/whatsappButton";
-import BgCalendar from '@/public/images/hero.jpeg'
+import BgCalendar from '@/public/images/bg_calendar.png'
 
 export default function Home() {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
@@ -217,7 +217,7 @@ export default function Home() {
               O atraso do pagamento faz com que o veículo fique irregular, o que configura uma infração de trânsito, o que pode inclusive ocasionar multa e apreensão. O licenciamento certifica que todos os débitos do veículo foram quitados. A ausência do pagamento pode ocasionar a apreensão do veículo, infração gravíssima com multa de 293,47 e 7 pontos na CNH. Consulte nossa seção de Licenciamento.
             </AccordionItem>
             <AccordionItem className="italic" key="2" aria-label="Accordion 2" title="Quais risco se eu não transferir o veículo em 30 dias?">
-              Fere o artigo 233 do código de trânsito brasileiro que diz "Deixar de efetuar o registro de veículo no prazo de trinta dias, junto ao órgão executivo de trânsito, ocorridas as hipóteses previstas no art. 123: Infração - grave; Penalidade - multa; Medida administrativa - retenção do veículo para regularização." O não pagamento do IPVA pode acarretar a inclusão do seu nome nos birôs de credito e a dívida será inclusa como dívida ativa, o veículo não poderá ser licenciado além de gerar juros.
+              Fere o artigo 233 do código de trânsito brasileiro que diz &apos;Deixar de efetuar o registro de veículo no prazo de trinta dias, junto ao órgão executivo de trânsito, ocorridas as hipóteses previstas no art. 123: Infração - grave; Penalidade - multa; Medida administrativa - retenção do veículo para regularização.&apos; O não pagamento do IPVA pode acarretar a inclusão do seu nome nos birôs de credito e a dívida será inclusa como dívida ativa, o veículo não poderá ser licenciado além de gerar juros.
             </AccordionItem>
             <AccordionItem className="italic" key="3" aria-label="Accordion 3" title="Quando devo pagar o IPVA do meu carro?">
               Cada estado possuí um calendário de pagamento que é disponibilizado anualmente pelo seu respectivo Detran. Acompanhe nossa seção de calendário ou tire suas dúvidas com a nossa equipe.
