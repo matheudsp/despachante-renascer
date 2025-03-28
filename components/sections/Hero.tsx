@@ -19,7 +19,7 @@ export default function Hero({
 
 
   return (
-    <div className="relative w-full h-[90vw] md:h-[50vw] lg:h-[30vw] overflow-hidden">
+    <div className="relative w-full h-[120vw] sm:h-[100vw] md:h-[50vw] lg:h-[30vw] overflow-hidden">
       {/* Imagem de fundo com Next Image */}
       <Image
         src={BgHero}

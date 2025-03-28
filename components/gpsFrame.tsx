@@ -7,6 +7,6 @@ export default function GpsFrame() {
       title="HeadquartersLocation"
       className="w-[56vw] h-[44vw] md:w-[40vw] md:h-[30vw] lg:w-[28vw] lg:h-[20vw] rounded-lg"
       allowFullScreen
-      loading="lazy" ></iframe>
+      loading="eager" ></iframe>
   )
 }

@@ -16,7 +16,7 @@ const config = {
       colors:{ 
         primary: '#00bcec',
         background:"#f7f7f7",
-        foreground:"#171717",
+        foreground:"#282828",
 
       }
     },

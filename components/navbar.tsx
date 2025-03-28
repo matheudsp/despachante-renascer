@@ -32,12 +32,12 @@ export const Navbar = () => {
 
 
   return (
-    <HeroUINavbar maxWidth="xl" className="bg-[#171717] py-2" position="sticky">
+    <HeroUINavbar maxWidth="xl" className="bg-foreground py-2" position="sticky">
       <NavbarContent className="basis-1/5 sm:basis-full " justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
             <Logo color="background" />
-            <p className="font-bold text-inherit text-white">LOGO</p>
+            {/* <p className="font-bold text-inherit text-white">LOGO</p> */}
           </NextLink>
         </NavbarBrand>
         <ul className="hidden md:flex gap-4 justify-start ml-2">
@@ -73,7 +73,7 @@ export const Navbar = () => {
 
       <NavbarContent className="md:hidden basis-1 pl-4" justify="end">
         
-          <WhatsappButton classText="text-sm font-bold underline" buttonText={siteConfig.contacts.tel} />
+          <WhatsappButton classText="text-sm font-bold underline" buttonText={'Chamar'} />
         
 
         <NavbarMenuToggle className="text-white" />

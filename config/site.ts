@@ -81,7 +81,7 @@ export const siteConfig = {
   ],
   featureItems: [
     {
-      iconSize:72,
+      iconSize:48,
       icon: MdOutlineWorkspacePremium ,
       title: 'Serviço especializado',
       desc: 'Há anos no mercado, pronto para resolver seus problemas.'
