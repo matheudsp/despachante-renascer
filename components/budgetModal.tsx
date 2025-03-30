@@ -32,7 +32,7 @@ export default function BudgetModal({ isOpen, onOpenChange, onOpen }: BudgetModa
             <RadioGroup className="flex self-end" defaultValue={'matriz'}>
               <Radio defaultChecked value="matriz"></Radio>
             </RadioGroup>
-              <p className="font-bold text-lg">Matriz</p>
+              <p className="font-bold text-lg">Unidade Matriz</p>
              <WhatsappButton classText="text-base font-bold underline" buttonText={siteConfig.contacts.tel}/>
               <GpsFrame />
 

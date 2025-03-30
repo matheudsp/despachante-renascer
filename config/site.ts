@@ -137,9 +137,12 @@ export const siteConfig = {
   ],
   links: {
     whatsapp: "https://github.com/heroui-inc/heroui",
-    instagram: "https://www.instagram.com/"
+    instagram: "https://www.instagram.com/",
+    googlemaps:"https://maps.app.goo.gl/oLosv5AmkBD2Tsqw6"
   },
   contacts: {
-    tel: '(91) 99994-5585'
+    tel: '(91) 99994-5585',
+    address:"Rua X???",
+    schedule:' Atendimento Presencial: 8:00h às 12:00h e das 14:00 às 17:30'
   }
 };

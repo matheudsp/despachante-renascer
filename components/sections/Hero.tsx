@@ -2,7 +2,7 @@
 import { title, subtitle } from "@/components/primitives";
 import { Button } from "@heroui/button";
 import Image from "next/image";
-import BgHero from '../../public/images/bg_hero_gradient.png'
+import BgHero from '../../public/images/hero.jpeg'
 interface HeroProps {
   infoText: string;
   titleText: string;
